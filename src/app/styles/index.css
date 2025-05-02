@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Tahoma;
+  src: url("/fonts/Tahoma-Font/regular.ttf");
+}
+
+@theme {
+  --color-xp-blue-bg: #003099;
+  --color-xp-blue-light: #597DDA;
+
+  --color-xp-blue-gradient-top: #153E8A;
+  --color-xp-blue-gradient-bottom: #275DC9;
+  
+  --color-xp-border: #E3A300;
+  --color-xp-red: #F54D25;
+  --color-xp-text-light: #ffffff;
+
+  --font-tahoma: 'Tahoma', sans-serif;
+}
