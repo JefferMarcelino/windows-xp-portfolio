@@ -11,7 +11,7 @@ const Bar = ({ children }: { children?: ReactNode }) => {
 
 export const WelcomePage = () => {
   return (
-    <div className="w-full h-screen font-tahoma text-white bg-xp-blue-bg">
+    <div className="w-full h-screen text-white bg-xp-blue-bg">
       <div className="h-full grid grid-cols-1 [grid-template-rows:0.7fr_4fr_0.7fr]">
         <Bar />
         
