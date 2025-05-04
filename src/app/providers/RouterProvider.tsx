@@ -1,6 +1,6 @@
-import { createBrowserRouter, RouterProvider } from "react-router";
-import { welcomePageRoute } from "@/pages/welcome";
-import { desktopPageRoute } from "@/pages/desktop";
+import { createBrowserRouter, RouterProvider } from "react-router"
+import { welcomePageRoute } from "@/pages/welcome"
+import { desktopPageRoute } from "@/pages/desktop"
 
 const router = createBrowserRouter([
   welcomePageRoute,

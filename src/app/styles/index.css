@@ -14,6 +14,8 @@
 
   --color-xp-start-button-bg: #1B911B;
 
+  --color-xp-folder-open-button-bg: #0E46C9;
+
   --color-xp-blue-gradient-top: #153E8A;
   --color-xp-blue-gradient-bottom: #275DC9;
   
@@ -22,4 +24,24 @@
   --color-xp-text-light: #ffffff;
 
   --font-tahoma: 'Tahoma', sans-serif;
+}
+
+.article h2 {
+  @apply text-lg font-bold text-xp-blue-bg mb-2 mt-4;
+}
+
+.article p {
+  @apply mb-2 leading-8;
+}
+
+.article pre {
+  @apply bg-gray-100 p-4 rounded-lg border border-gray-300 mb-4 italic my-4;
+}
+
+.article ol {
+  @apply list-decimal list-inside mb-4;
+}
+
+.article ul {
+  @apply list-disc list-inside mb-4;
 }

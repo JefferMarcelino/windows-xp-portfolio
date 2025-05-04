@@ -1,7 +1,10 @@
-import { BrowserRouter } from "./RouterProvider";
+import { WindowsProvider } from "@/shared/hooks/windows/provider"
+import { BrowserRouter } from "./RouterProvider"
 
 export const Providers = () => {
   return (
-    <BrowserRouter />
+    <WindowsProvider>
+      <BrowserRouter />
+    </WindowsProvider>
   )
 }
